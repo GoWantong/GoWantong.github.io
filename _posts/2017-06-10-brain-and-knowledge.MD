@@ -2,7 +2,7 @@
 layout: post
 title: "猜想，大脑和知识的关系"
 date: 2017-06-10
-excerpt: ""
+excerpt: "梳理所学的知识，构建完整的知识体系。"
 tags: [学习, 头脑风暴, 猜想]
 comments: true
 ---
