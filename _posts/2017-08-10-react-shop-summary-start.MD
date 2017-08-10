@@ -7,14 +7,14 @@ tags: [web, 学习, 前端, React]
 comments: true
 ---
 
-*** 作为一个商城的项目主要的功能有： ***
+**作为一个商城的项目主要的功能有：**
 * 登录、登出
 * 查看商品列表，看看单个商品详情。
 * 添加商品到购物车，修改购物车信息。
 * 下订单、结算。
 * 查看订单信息。
 
-*** 根据功能，可能需要这些页面： ***
+**根据功能，可能需要这些页面：**
 * 登录页
 * 注册页
 * 商品列表页
@@ -26,5 +26,5 @@ comments: true
 
 确定这些信息后，可以尝试设计一下这些页面之间是如何进行交互及跳转的了。
 大致的交互如下图：
-![prototype](https://github.com/GoWantong/GoWantong.github.io/tree/master/assets/img/prototype.png)
+![prototype](https://github.com/GoWantong/GoWantong.github.io/raw/master/assets/img/prototype.png)
 
