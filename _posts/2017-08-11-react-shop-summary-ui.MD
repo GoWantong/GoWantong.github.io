@@ -227,7 +227,7 @@ const images=['http://xxx1.jpg','http://xxx2.jpg','http://xxx3.jpg','http://xxx4
               return (
                 <img
                   className="carousel-image"
-                  style={{transform: `translateX(${positionX}px)`}}
+                  style={{transform: "translateX(" + positionX + "px)"}}
                   src={image && image.src ? image.src : image}
                   alt={image && image.alt ? image.alt : ''}
                   key={`image-${index}`}
