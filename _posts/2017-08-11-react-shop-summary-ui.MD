@@ -222,17 +222,20 @@ const images=['http://xxx1.jpg','http://xxx2.jpg','http://xxx3.jpg','http://xxx4
           ref={(el) => { this.carouselElement = el; }} // 通过 ref 来获取真实 DOM 元素
         >
           {
-            images.map((image, index) => (
-              <img
-                className="carousel-image"
-                style={{
-                  transform: `translateX(${((index - activeIndex) * width) + left}px)`,
-                }}
-                src={image && image.src ? image.src : image}
-                alt={image && image.alt ? image.alt : ''}
-                key={`image-${image.url}`}
-              />
-            ))
+            images.map((image, index) => {
+              const positionX = ((index - activeIndex) * width) + left; // 计算图片的位置
+              return (
+                <img
+                  className="carousel-image"
+                  style={{
+                    transform: `translateX(${positionX}px)`,
+                  }}
+                  src={image && image.src ? image.src : image}
+                  alt={image && image.alt ? image.alt : ''}
+                  key={`image-${index}`}
+                />
+              )
+            })
           }
           {this.getPointer()}
         </div>
