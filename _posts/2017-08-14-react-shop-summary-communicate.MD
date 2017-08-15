@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "用React构建一个小商城（三）"
-date: 2017-08-10
+date: 2017-08-14
 excerpt: "解决组件间通讯的问题"
 tags: [web, 学习, 前端, React]
 comments: true
